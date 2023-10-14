@@ -1,5 +1,5 @@
 /*
-    Instruction: implement function named "removeItem" the function will 
+    Instruction: implement function a named "removeItem" the function will 
     takes "arr" which is array and "item" is new item. 
     Your goal here is remove a specific item from the exist array then return them
 

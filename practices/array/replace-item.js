@@ -1,5 +1,5 @@
 /*
-    Instruction: implement function named "replaceItem" the function will 
+    Instruction: implement a function named "replaceItem" the function will 
     takes "arr" which is array, "item" is new item and "replace" is the item that you need to replace with new item. 
     Your goal here is replace a specific item from the exist array then return them
 

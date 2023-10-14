@@ -1,5 +1,5 @@
 /*
-    Instruction: implement function named "mergeArray" the function will 
+    Instruction: implement function a named "mergeArray" the function will 
     takes "arr1" and "arr2" which is array. Your task is you need to merge them to one array and return them.
     Which all item in the array must be unique.
 

@@ -1,5 +1,5 @@
 /*
-    Instruction: implement function named "addItem" the function will 
+    Instruction: implement a function named "addItem" the function will 
     takes "arr" which is array and "item" is new item. 
     Your goal here is add a new item into the exist array then return them
 

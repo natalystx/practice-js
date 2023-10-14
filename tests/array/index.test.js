@@ -1,4 +1,4 @@
-import { createArray, addItem, removeItem, replaceItem, mergeArray } from "../../practices/array";
+import { createArray, addItem, removeItem, replaceItem, mergeArray, sum2DimensionArray } from "../../practices/array";
 import { faker } from "@faker-js/faker";
 
 const getDeleteResult = (arr, i) => arr.filter((_, j) => j !== i);
@@ -17,6 +17,15 @@ const numbers2 = new Array(30).fill(0).map(() => faker.number.float());
 const merged = Array.from(new Set([...arr1, ...arr2]));
 const mergedNumbers = Array.from(new Set([...numbers1, ...numbers2]));
 const arr = ["lemon", "banana", "orange"];
+
+faker.seed(Math.random());
+const twoDimensionArray = new Array(100).fill(0).map(() => [faker.number.float(), faker.number.float()]);
+const sum = (data) => {
+  const reducer = (acc, n) => acc + n;
+  const result = data.flat().reduce(reducer, 0);
+
+  return result;
+};
 
 describe("Array Checker", () => {
   test("create-array.js", () => {
@@ -66,5 +75,10 @@ describe("Array Checker", () => {
     expect(mergeArray([...arr1], [...arr2])).toStrictEqual(merged);
     expect(mergeArray([...numbers1], [...numbers2])).toStrictEqual(mergedNumbers);
     expect(mergeArray([...numbers2], [])).toStrictEqual(numbers2);
+  });
+
+  test("2d-array.js", () => {
+    expect(sum2DimensionArray).toBeDefined();
+    expect(sum2DimensionArray([...twoDimensionArray])).toEqual(sum([...twoDimensionArray]));
   });
 });

@@ -1,5 +1,6 @@
 /*
-    Instruction: implement function named "createArray" which create a array that have values inside lemon banana orange
+    Instruction: implement a function named "createObject" which creates an object that has values inside 
+    firstName is John and lastName is Doe
  */
 
 export function createObject() {
