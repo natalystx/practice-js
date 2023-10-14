@@ -5,7 +5,7 @@ The code challenges to improve your Javascript skill.
 ## Pre-required
 
     - NodeJS
-    - Code editor (VSCODE, Atom, .ect)
+    - Code editor (VSCODE, Atom, .etc)
 
 ## Installation
 
