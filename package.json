@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "practice some js.",
   "scripts": {
-    "start": "jest --watch tests/**/*.test.js",
-    "start:array": "jest --watch tests/array/*.test.js",
-    "start:object": "jest --watch tests/object/*.test.js",
-    "start:mix": "jest --watch tests/mix/*.test.js",
-    "start:function": "jest --watch tests/function/*.test.js"
+    "start": "jest --watch --config jest.config.js tests/**/*.test.js",
+    "start:array": "jest --watch  --config jest.config.js tests/array/*.test.js",
+    "start:object": "jest --watch  --config jest.config.js tests/object/*.test.js",
+    "start:mix": "jest --watch  --config jest.config.js tests/mix/*.test.js",
+    "start:function": "jest --watch  --config jest.config.js tests/function/*.test.js"
   },
   "keywords": [],
   "author": "",
