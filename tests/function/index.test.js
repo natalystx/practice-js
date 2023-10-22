@@ -7,11 +7,7 @@ const possibleNames = (name) => {
 
   for (let index = 0; index < 2; index++) {
     new Array(length).fill(0).forEach((_, i) => {
-      const newName = splittedText
-        .map((c, j) =>
-          j === i ? (index === 0 ? c.toLowerCase() : c.toUpperCase()) : c
-        )
-        .join("");
+      const newName = splittedText.map((c, j) => (j === i ? (index === 0 ? c.toLowerCase() : c.toUpperCase()) : c)).join("");
       names.push(newName);
     });
   }
@@ -36,7 +32,7 @@ describe("Function Checker", () => {
     expect(add("a", "b")).toEqual(null);
   });
 
-  test("add.js", () => {
+  test("matcher.js", () => {
     expect(matcher).toBeDefined();
     expect(matcher()).toEqual(null);
     const jack = possibleNames("Jack");
@@ -74,7 +70,7 @@ describe("Function Checker", () => {
     expect(
       callback(() => {
         return { a: 2 };
-      })
+      }),
     ).toStrictEqual({ a: 2 });
   });
 
