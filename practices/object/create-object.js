@@ -1,6 +1,7 @@
 /*
-    Instruction: implement a function named "createObject" which creates an object that has values inside 
-    firstName is John and lastName is Doe
+  Instructions: Implement a function named "createObject" that creates an object with the following properties:
+  - firstName: "John"
+  - lastName: "Doe"
  */
 
 export function createObject() {

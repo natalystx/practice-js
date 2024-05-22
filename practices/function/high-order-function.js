@@ -1,28 +1,23 @@
 /*     
-    First, What is a High Order Function (HOF)?
-    High Order Function is a function that extends or enhances another function and provide new functionality.
+    First, what is a Higher Order Function (HOF)?
+    A Higher Order Function is a function that takes one or more functions as arguments or returns a function as its result.
 
-    example: 
-        function sayName(name){
-            console.log(name)
-        }
+    Example: 
+    function sayName(name) {
+        console.log(name);
+    }
 
+    The greeting function extends the sayName function to greet a person
+    function greeting(name) {
+        sayName("Hello, " + name);
+    }
 
-        describe: the greeting function extends sayName function to greeting some person
-        function greeting(name){
-            sayName("Hello, "  + name)
-        }
+    Instruction: Implement a function named "hof" that takes an "add" function, which simply adds two numbers together, and two numbers "a" and "b" as arguments.
 
+    Your task is to square the result of the add function and return it.
+    (A square number is the result of multiplying a number by itself.)
 
-
-    Instruction: Implement a function named "hof" the function will takes 
-    "add" function which simply add up two number together
-    "a", "b" are a number
-
-    your task is make the result from add function to a square number then return them
-    https://en.wikipedia.org/wiki/Square_number
-
-    PS: all parameter will never be undefined or null, a and b are always number
+    PS: All parameters will never be undefined or null, and "a" and "b" will always be numbers.
 */
 
 export function hof(add, a, b) {

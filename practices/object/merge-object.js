@@ -1,12 +1,12 @@
 /*
-        Instruction: implement a function named "mergeObject" the function will takes 2 arguments
-        "obj1", "obj2" are an object.
-        Your task is merge two objects together into a one object.
+  Instructions:
+  Implement a function named "mergeObject" that takes two arguments, "obj1" and "obj2", which are objects.
+  Your task is to merge the two objects together into a single object.
 
-        PS: obj, key,value  will never be undefined or null
-        if there are same attribute between obj1 and obj2,
-         the attribute from obj2 will replace the exist attribute in obj1.
+  If there are attributes with the same name in both obj1 and obj2,
+  the attribute from obj2 should replace the existing attribute in obj1.
 
+  Note: The obj, key, and value will never be undefined or null.
 */
 
 export function mergeObject(obj1, obj2) {

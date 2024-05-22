@@ -1,10 +1,10 @@
 /*
-    Instruction: implement function a named "mergeArray" the function will 
-    takes "arr1" and "arr2" which is array. Your task is you need to merge them to one array and return them.
-    Which all item in the array must be unique.
+  Instructions: Implement a function named "mergeArray" that takes two arrays, "arr1" and "arr2", as input. 
+  Your task is to merge the two arrays into a single array and return it. 
+  The resulting array should contain only unique elements.
 
-    PS: "arr1" and "arr2" will never be undefined and null but have a chance to be a empty array.        
- */
+  Note: "arr1" and "arr2" will never be undefined or null, but they may be empty arrays.
+*/
 
 export function mergeArray(arr1, arr2) {
   // write your code here

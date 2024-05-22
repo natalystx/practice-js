@@ -1,22 +1,18 @@
 /*
-        Instruction: implement a function named "sortById" the function will takes a array of user's object.
-        Here is the shape of user's object
-        {
-            id: 1,
-            firstName: "John",
-            lastName: "Doe",
-            age: 18,
-            gender: "male",
-            dob: "1999-10-14",
-            active: 0
-        }
-        Your task is sort the array by user's id by ascending order
+  Instructions: Implement a function named "sortById" that takes an array of user objects as input.
+  Each user object has the following shape:
+  {
+    id: 1,
+    firstName: "John",
+    lastName: "Doe",
+    age: 18,
+    gender: "male",
+    dob: "1999-10-14",
+    active: 0
+  }
+  Your task is to sort the array by user's id in ascending order and return the sorted array of user objects.
 
-
-        then return them in array of user's object as input
-
-        PS: obj will never be undefined or null        
-
+  Note: The input array will never be undefined or null.
 */
 
 export function sortById(users) {

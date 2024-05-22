@@ -1,10 +1,8 @@
 /*
-        Instruction: implement a function named "removeAttribute" the function will takes 2 arguments
-        "obj" is an exist object, "key" is a attribute's name.
-        Your task is remove key's attribute from an exist object.
+  Instruction: Implement a function named "removeAttribute" that takes two arguments: "obj" (an existing object) and "key" (an attribute's name).
+  Your task is to remove the attribute with the given key from the existing object.
 
-        PS: obj, key,value  will never be undefined or null
-
+  Note: The "obj" and "key" parameters will never be undefined or null.
 */
 
 export function removeAttribute(obj, key) {

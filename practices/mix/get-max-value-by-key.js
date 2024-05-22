@@ -1,21 +1,19 @@
 /*
-        Instruction: implement a function named "getMaxValueByKey" the function will takes a array of product's object.
-        Here is the shape of product's object
-        {
-            id: 1,
-           name: "coke",
-           weight: 100,
-           price: 100.2
-           amount: 2
-        }
-        Your task is get a specific item that has max value by given key
+  Instruction: Implement a function named "getMaxValueByKey" that takes an array of product objects.
+  Each product object has the following shape:
+  {
+    id: 1,
+    name: "coke",
+    weight: 100,
+    price: 100.2,
+    amount: 2
+  }
+  Your task is to find the product with the maximum value for a given key.
 
-        then return them in project's object
+  Return the product object with the maximum value for the given key.
+  If the key is not found in any of the product objects, return null.
 
-        PS: data and key will never be undefined or null 
-        data never be an empty array also
-        if object's attribute doesn't contain key return null instead       
-
+  Note: The "data" parameter will never be undefined or null, and the "data" array will never be empty.
 */
 
 export function getMaxValueByKey(data, key) {

@@ -1,20 +1,20 @@
 /* 
-    Instruction: Implement a function named "matcher" the function will take a string then the function must return a specific value.
+  Instruction: Implement a function named "matcher" that takes a string as input and returns a specific value based on the input.
 
-    Criteria:
+  Criteria:
 
-        **matcher table**
-        -------------------------------
-        input | return value
-        -------------------------------
-        Jack | Orange
-        Tom | Apple
-        Louis | Grape
-        Steven | Banana
+    **matcher table**
+    -------------------------------
+    input  | return value
+    -------------------------------
+    Jack   | Orange
+    Tom    | Apple
+    Louis  | Grape
+    Steven | Banana
 
-     if the input not in the list return null instead
-     PS: The input will comes with many forms of string such as jack, JaCk, JaCk .etc 
-     The function must handle in this case also.
+   If the input is not in the list, the function should return null. The function should handle different forms of the input string, such as "jack", "JaCk", "JaCk", etc.
+
+   Write your code below this comment.
 */
 
 export function matcher(name) {

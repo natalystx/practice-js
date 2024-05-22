@@ -1,8 +1,9 @@
 /* 
-    Instruction: Implement a function named "callback" the function will take another function.
-    Your task is invoke the function and return a result that function give to you.
+    Instruction: Implement a function named "callback". This function should accept a function as an argument and return the result of that function.
 
-    if function result is undefined, null or incoming function isn't exist return null instead
+    Criteria:
+        - If the argument is not a function, the function should return null.
+        - If the argument is a function, the function should return the result of that function.
 */
 
 export function callback(fn) {

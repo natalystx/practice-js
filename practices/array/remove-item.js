@@ -1,12 +1,11 @@
 /*
-    Instruction: implement function a named "removeItem" the function will 
-    takes "arr" which is array and "item" is new item. 
-    Your goal here is remove a specific item from the exist array then return them
+  Instructions: Implement a function named "removeItem" that takes an array "arr" and an item "item" as parameters. 
+  Your goal is to remove the specific item from the existing array and return the modified array.
 
-    PS: if arr isn't exist return null 
-        if item is empty return the old array
-        if couldn't find an item in the array return the old array
- */
+  - If arr is not provided, return null.
+  - If item is empty, return the original array.
+  - If the item is not found in the array, return the original array.
+*/
 
 export function removeItem(arr, item) {
   // write your code here

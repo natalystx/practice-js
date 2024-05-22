@@ -1,12 +1,11 @@
 /*
-    Instruction: implement a function named "replaceItem" the function will 
-    takes "arr" which is array, "item" is new item and "replace" is the item that you need to replace with new item. 
-    Your goal here is replace a specific item from the exist array then return them
+  Instructions: Implement a function named "replaceItem" that takes in an array "arr", a new item "item", and an item to replace "replace". 
+  Your goal is to replace a specific item in the array and return the modified array.
 
-    PS: if arr isn't exist return null 
-        if item or replace is empty return the old array
-        if couldn't find an item to replace in the array return the old array
- */
+  - If "arr" is not provided, return null.
+  - If "item" or "replace" is empty, return the original array.
+  - If the item to replace is not found in the array, return the original array.
+*/
 
 export function replaceItem(arr, item, replace) {
   // write your code here

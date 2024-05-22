@@ -1,13 +1,13 @@
 /*
-    Instruction: implement function a named "sum2DimensionArray" the function will 
-    takes "arr" which is 2 dimensions array of number. Your task is you need to sum every number together and return them
+  Instructions: Implement a function named "sum2DimensionArray" that takes in an array "arr" which is a 2-dimensional array of numbers. 
+  Your task is to sum every number together and return the result.
 
-    example of input data
-    [
-        [2,3], [2,34], [25,6] ....
-    ]
+  Example of input data:
+  [
+    [2, 3], [2, 34], [25, 6], ...
+  ]
 
-    PS: "arr" will never be undefined and null but have a chance to be a empty array.        
+  Note: The "arr" parameter will never be undefined or null, but it may be an empty array.
  */
 
 export function sum2DimensionArray(arr) {
