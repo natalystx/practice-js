@@ -2,13 +2,14 @@
   "name": "practice",
   "version": "1.0.0",
   "description": "practice some js.",
- "scripts": {
-  "start": "jest --watch --config jest.config.js tests/**/*.test.js",
-  "start:array": "jest --watch --config jest.config.js tests/array/*.test.js",
-  "start:object": "jest --watch --config jest.config.js tests/object/*.test.js",
-  "start:mix": "jest --watch --config jest.config.js tests/mix/*.test.js",
-  "start:function": "jest --watch --config jest.config.js tests/function/*.test.js"
-},
+  "scripts": {
+    "cross-env": "cross-env NODE_PATH=./src",
+    "start": "npm run cross-env && jest --watch --config jest.config.js \"tests/**/*.test.js\"",
+    "start:array": "npm run cross-env && jest --watch --config jest.config.js \"tests/array/*.test.js\"",
+    "start:object": "npm run cross-env && jest --watch --config jest.config.js \"tests/object/*.test.js\"",
+    "start:mix": "npm run cross-env && jest --watch --config jest.config.js \"tests/mix/*.test.js\"",
+    "start:function": "npm run cross-env && jest --watch --config jest.config.js \"tests/function/*.test.js\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
