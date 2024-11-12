@@ -1,10 +1,10 @@
 // jest.config.js
 module.exports = {
   testEnvironment: "node",
-  testMatch: ["**/tests/**/*.test.js"],
   moduleFileExtensions: ["js", "jsx"],
   transform: {
     "^.+\\.jsx?$": "babel-jest",
   },
-  roots: ["<rootDir>/tests"],
+  testMatch: ["**/tests/**/*.test.js"],
+  watchPathIgnorePatterns: ["/node_modules/"],
 };
