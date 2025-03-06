@@ -47,6 +47,11 @@ Run mix practice
     npm run start:mix
 ```
 
+## For Windows user
+
+after running any `npm start` command please press `A` on your keyboard to start practicing
+Happy coding :smiley:
+
 ## Guideline
 
 If you don't have any experience just get start following this list.
