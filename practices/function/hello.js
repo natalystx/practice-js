@@ -5,6 +5,4 @@
 
 export function hello() {
   // write your code here
-
-  return "Hello";
 }

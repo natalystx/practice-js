@@ -49,8 +49,7 @@ Run mix practice
 
 ## For Windows user
 
-after running any `npm start` command please press `A` on your keyboard to start practicing
-Happy coding :smiley:
+If can'r run any `npm` command please use unix based terminal to run such `git-bash`
 
 ## Guideline
 

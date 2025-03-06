@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "practice some js.",
   "scripts": {
-    "start": "cross-env npx jest --watch --config jest.config.js",
-    "start:array": "cross-env npx jest --watch --config jest.config.js tests/array/*.test.js",
-    "start:object": "cross-env npx jest --watch --config jest.config.js tests/object/*.test.js",
-    "start:mix": "cross-env npx jest --watch --config jest.config.js tests/mix/*.test.js",
-    "start:function": "cross-env npx jest --watch --config jest.config.js tests/function/*.test.js"
+    "start": "jest --watchAll=true",
+    "start:array": "jest tests/array/* --watch=true",
+    "start:object": "jest  tests/object/* --watch=true",
+    "start:mix": "jest tests/mix/* --watch=true",
+    "start:function": "jest tests/function/* --watch=true"
   },
   "keywords": [],
   "author": "",
